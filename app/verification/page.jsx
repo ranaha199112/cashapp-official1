@@ -10,7 +10,7 @@ export default function TransferFailed() {
         <h1 className="text-lg font-semibold">This transfer failed</h1>
       </div>
       <button
-        className="mt-6 px-10 py-2 bg-green-500 text-white rounded-lg"
+        className="mt-10 px-10 py-2 bg-green-500 text-white rounded-lg"
       >
         Done
       </button>
