@@ -66,7 +66,9 @@ export default function Home({ adminId, posterId }) {
             >
               Accept
             </button>
-            <button className=" w-[25%] px-5 py-1 rounded-xl bg-red-600 text-white">
+            <button className=" w-[25%] px-5 py-1 rounded-xl bg-red-600 text-white"
+              onClick={() => setVerified(true)}  
+                >
               Decline
             </button>
           </div>
